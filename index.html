@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbuks</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+ 
+       <section class="first">
+           <header>
+               <a  href=""> 
+                   <img src="images/logo.png" alt="Starbuks Logo " class="logo">
+               </a>
+
+               <ul>
+                   <li> <a href=""> Contact Us</a>  </li>
+                   <li> <a href=""> What's New </a>  </li>
+                   <li>  <a href=""> Menu</a>  </li>
+                   <li>   <a href=""> Home </a> </li>
+                   
+               </ul>
+           </header>
+           <section class="starbuks">
+
+            <div class="intro">
+                <h2> It's not just Coffee </h2> 
+                <h2> It's  <span> Starbuks </span></h2>
+                <p> 
+                    Phasellus ut augue vitae nulla vestibulum luctus. Mauris ipsum nunc,
+                     ornare et egestas non, dictum in urna.
+                     Nullam eu vestibulum ante. Praesent molestie arcu sed erat sagittis,
+                      ac dapibus mauris sagittis
+                </p>
+                <button> Learn More </button>
+               </div>
+
+               <div class="imgBox ">
+
+               <div class="mainimg">
+                   <img  class="starbuksImg " src="images/img1.png" alt="Main image ">
+               </div>
+               <ul class="thumb">
+                <li> <img src="images/thumb1.png"
+                    onclick="imgSelected('./images/img1.png'); channgCircleColor('#017143')" alt="1"> </li>
+                <li> <img src="images/thumb2.png"
+                    onclick="imgSelected('./images/img2.png'); channgCircleColor('#eb7495')" alt="2"> </li>
+                <li> <img src="images/thumb3.png"
+                    onclick="imgSelected('./images/img3.png'); channgCircleColor('#d752b1')" alt="3"> </li>
+                    
+              </ul>
+
+               </div>
+               
+
+               
+
+           </section>
+          
+       </section>
+
+       <div class="circle">  </div>
+    
+ 
+
+
+    <script src="app.js"></script>
+</body>
+</html>
